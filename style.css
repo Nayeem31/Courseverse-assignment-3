@@ -22,12 +22,45 @@ body{
         height: 40vh !important;
     }
     .course {
-         display: flex !important; 
-         flex-direction: column !important;
+        display: flex !important; 
+        flex-direction: column !important;
      }
     .course img{
-     width: 100% !important;
-     max-width: none !important;
-     height: 35vh !important;
+        width: 100% !important;
+        max-width: none !important;
+        height: 35vh !important;
+    }
+    .register-section{
+        display: flex !important; 
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+        padding-left:  0% !important;
+        padding-right: 0% !important;
+    }
+    .register-section .text-area{
+        padding: 0% !important;
+        margin: auto !important;
+       
+    }
+    .register-section .button-area a{
+        margin-top: 3vh;
+        padding:1vh 3vw !important;
+        white-space: nowrap;
+    }
+ }
+ @media only screen and (min-width:768px) and (max-width:991px){
+    .register-section{
+        display: flex !important; 
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+        padding-left:  0% !important;
+        padding-right: 0% !important;
+    }
+    .register-section .button-area a{
+        margin-top: 5vh;
+        padding: 2vh 4vw !important;
+        white-space: nowrap;
     }
  }
