@@ -1,3 +1,4 @@
+/* override css start */
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -23,6 +24,8 @@ body{
 .company-section img{
     max-width: 80% !important;
 }
+ /* override css start */
+ /* override media query start */
 @media only screen and (min-width:0px) and (max-width:767px){
     .slider-section img{
         height: 40vh !important;
@@ -70,3 +73,4 @@ body{
         white-space: nowrap;
     }
  }
+ /* override media query end */
