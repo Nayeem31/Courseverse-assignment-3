@@ -17,6 +17,7 @@ body{
     background:#1E1E1E;
     opacity:0.6; 
 }
+
 @media only screen and (min-width:0px) and (max-width:767px){
     .slider-section img{
         height: 40vh !important;
