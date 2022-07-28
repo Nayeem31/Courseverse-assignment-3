@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.carousel-slider{
+    margin-top: 15vh;
+}
 .slider-section{
     background: no-repeat  ;
     background-size: cover;
