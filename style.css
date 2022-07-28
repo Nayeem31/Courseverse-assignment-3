@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.slider-section{
+    background: no-repeat  ;
+    background-size: cover;
+    border-radius: 5px;
+}
+.slider-section::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#1E1E1E;
+    opacity:0.6; 
+}
